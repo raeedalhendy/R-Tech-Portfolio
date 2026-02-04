@@ -63,6 +63,7 @@ export const i18n = {
       ctaBtn: "Let’s talk",
       hireBtn: "Hire Me",
         filters: { all: "All", mobile: "Mobile", web: "Web", uiux: "UI/UX" },
+      behance: "Behance",
 
     },
 
@@ -160,6 +161,7 @@ export const i18n = {
       ctaBtn: "لنتحدث",
       hireBtn: "وظّفني",
   filters: { all: "الكل", mobile: "موبايل", web: "ويب", uiux: "UI/UX" },
+behance: "Behance",
 
     },
 

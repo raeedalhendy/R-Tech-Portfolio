@@ -30,7 +30,7 @@ export default function ProjectCard({ p, t, lang }) {
   const tag = p.tag?.[lang] || p.tag?.en || "";
 
   const liveOk = p.liveUrl && p.liveUrl !== "#";
-  const codeOk = p.codeUrl && p.codeUrl !== "#";
+  const behanceOk = p.behanceUrl && p.behanceUrl !== "#";
 
   const isMobile = p.type === "mobile";
 
@@ -53,7 +53,11 @@ export default function ProjectCard({ p, t, lang }) {
         </div>
 
         <h3 className="mt-4 text-lg font-semibold tracking-tight">{title}</h3>
-        {!!desc && <p className="mt-2 text-sm text-white/70 leading-relaxed">{desc}</p>}
+        {!!desc && (
+          <p className="mt-2 text-sm text-white/70 leading-relaxed">
+            {desc}
+          </p>
+        )}
 
         {Array.isArray(p.stack) && p.stack.length > 0 && (
           <div className="mt-4 flex flex-wrap gap-2">
@@ -90,15 +94,15 @@ export default function ProjectCard({ p, t, lang }) {
             )
           )}
 
-          {/* CODE */}
-          {codeOk && (
+          {/* BEHANCE */}
+          {behanceOk && (
             <a
-              href={p.codeUrl}
+              href={p.behanceUrl}
               target="_blank"
               rel="noreferrer"
               className="rounded-2xl border border-white/15 bg-white/5 px-5 py-3 text-sm font-semibold hover:bg-white/10"
             >
-              {t.portfolio.code}
+              {t.portfolio.behance}
             </a>
           )}
         </div>

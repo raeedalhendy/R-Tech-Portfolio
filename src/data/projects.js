@@ -145,7 +145,7 @@ export const projects = [
       ar: "بحث → مسارات المستخدم → وايرفريم → نظام تصميم → شاشات نهائية لتجربة حجز مزارعنا.",
     },
     stack: ["Research", "User Flows", "Wireframes", "UI System", "Prototype"],
-    image: "/Mazarena Cover.png",
+    image: "/Mazarena-Cover.png",
     // UI/UX: يفتح رابط خارجي (Case Study / Figma)
     liveUrl: "https://www.figma.com/design/QT7RBtu2Zb0UKoDnzeN1gj/%D9%85%D8%B2%D8%A7%D8%B1%D8%B9%D9%86%D8%A7?node-id=0-1&t=cO688CeN0ukvE0aF-1",
     behanceUrl: "https://www.behance.net/gallery/243379347/Mazareena-Farm-Pool-Mobile-App",
@@ -161,7 +161,7 @@ export const projects = [
       ar: "تصميم تدفق مواعيد + فواتير بهرمية معلومات واضحة لتسريع العمل اليومي.",
     },
     stack: ["UX", "Information Architecture", "UI", "Design System"],
-    image: "/cover my clinic.png",
+    image: "/cover-my-clinic.png",
     liveUrl: "https://www.figma.com/design/koyVRIjl4BA3sG2xxN3QqI/My-Clinic?node-id=0-1&t=fXz8o1W7KW7i33GV-1",
     behanceUrl: "https://www.behance.net/gallery/243335093/Clinic-Management-App-UIUX-Case-Study",
   },

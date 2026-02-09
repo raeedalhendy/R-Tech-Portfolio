@@ -165,4 +165,19 @@ export const projects = [
     liveUrl: "https://www.figma.com/design/koyVRIjl4BA3sG2xxN3QqI/My-Clinic?node-id=0-1&t=fXz8o1W7KW7i33GV-1",
     behanceUrl: "https://www.behance.net/gallery/243335093/Clinic-Management-App-UIUX-Case-Study",
   },
+  {
+  id: "qareeb-uiux-case",
+  type: "uiux",
+  tag: { en: "UI/UX Case Study", ar: "UI/UX" },
+  title: { en: "Qareeb – UI/UX Case Study", ar: "قريب –  UI/UX" },
+  desc: {
+    en: "Designing a mobile platform that connects craftsmen with customers through a simple browsing flow, clear service presentation, and fast communication experience.",
+    ar: "تصميم تطبيق موبايل يربط الحرفيين بالعملاء من خلال تجربة تصفح بسيطة، عرض خدمات واضح، وتواصل سريع وسهل.",
+  },
+  stack: ["UX", "User Flow", "UI", "Product Design", "React Native"],
+  image: "/Cover-Qareeb.png",
+  liveUrl: "https://www.figma.com/design/kAZk1b9KHF0adTJc0jdK3z/Qareeb?node-id=0-1&t=KwnlJESs6rs7Quuq-1",
+  behanceUrl: "https://www.behance.net/gallery/243779757/QareebCraftsmen-Services-Mobile-App-UIUX-Case-Study",
+}
+
 ];
